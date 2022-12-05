@@ -8,13 +8,15 @@ namespace Day13_Generics
         {
 
 
-            int intArray = MaxNumberCheck.MaxIntegerNumber(23, 42, 12);
+
+
+            int intArray = MaxNumberCheck<int>.MaxValue(23, 42, 12);
             Console.WriteLine("\nMax integer number is: " + intArray);
 
-            double MaxFloat = MaxNumberCheck.MaxFloatNumber(33.2, 23.4, 12.5);
-            Console.WriteLine("\nMax float number is: " + MaxFloat);
+            double output = MaxNumberCheck<double>.MaxValue(33.2, 23.4, 12.5);
+            Console.WriteLine("\nMax float number is: " + output);
 
-            string strArr = MaxNumberCheck.MaxStringNumber("karan", "chetan", "yogesh");
+            char strArr = MaxNumberCheck<char>.MaxValue('A', 'S', 'R');
             Console.WriteLine("\nMax string is: " + strArr);
 
         }
