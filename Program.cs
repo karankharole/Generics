@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-------- Welcome To Generics Problem ---------");
 
             // GenericsProgram genericsProgram = new GenericsProgram();
 
