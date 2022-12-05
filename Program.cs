@@ -5,15 +5,8 @@
         static void Main(string[] args)
         {
 
-            // GenericsProgram genericsProgram = new GenericsProgram();
-
-            int[] intArray = { 1, 2, 3, 4, 5 };
-            double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
-            char[] charArray = { 'H', 'S', 'E', 'L', 'L', 'O' };
-
-            GenericsClass.toPrint(intArray);
-            GenericsClass.toPrint(doubleArray);
-            GenericsClass.toPrint(charArray);
+            int output = MaxNumberCheck.MaxIntegerNumber(8347, 8778, 884);
+            Console.WriteLine("\nMax integer number is: " + output);
         }
     }
 }
